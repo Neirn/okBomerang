@@ -1,0 +1,70 @@
+{
+  "ModLoader64": {
+    "rom": "oot.z64",
+    "patch": "oot_vanillamizer.bps",
+    "isServer": true,
+    "isClient": true,
+    "isAnalyticsServer": false,
+    "supportedConsoles": [
+      "Mupen64Plus"
+    ],
+    "selectedConsole": "Mupen64Plus",
+    "coreOverride": "",
+    "disableVIUpdates": false
+  },
+  "NetworkEngine.Client": {
+    "isSinglePlayer": true,
+    "forceServerOverride": false,
+    "ip": "127.0.0.1",
+    "port": 8082,
+    "lobby": "section-wobbly-73",
+    "nickname": "Player",
+    "password": "",
+    "forceTCPMode": false
+  },
+  "NetworkEngine.Server": {
+    "port": 8082,
+    "udpPort": 8082,
+    "patchSizeLimitMB": 10
+  },
+  "OcarinaofTime": {
+    "skipN64Logo": true
+  },
+  "ChildGear": {
+    "unlockItemsAsChild": true,
+    "allowAdultToUseCrawlspace": true
+  },
+  "OotOnline": {
+    "mapTracker": false,
+    "keySync": true,
+    "notifications": true,
+    "nameplates": true,
+    "notificationSound": true,
+    "muteNetworkedSounds": false,
+    "muteLocalSounds": false,
+    "syncMasks": true,
+    "syncBottleContents": true,
+    "diagnosticMode": false
+  },
+  "OotO_Halloween": {
+    "adultCostume": "",
+    "childCostume": "",
+    "textures": true,
+    "fog": true
+  },
+  "OotO_WorldEvents": {
+    "adultCostume": "",
+    "childCostume": "Combined_TPLink64Equipped 1 (Child)",
+    "equipmentLoadout": {
+      "Boomerang": ""
+    },
+    "voice": "",
+    "disableCostumeManager": false,
+    "anim_bank": "",
+    "assetcache": ""
+  },
+  "OotO_WorldEvents_Server": {
+    "Z64OEventsActive": [],
+    "Z64OAssetsURL": []
+  }
+}
